@@ -1,127 +1,144 @@
 
+// task one /////////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+// var num =prompt("Enter Num :")
+// function getSumOfDigits(num){
 
-// task one ///////////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////////////////////////
+//     return String(num)
+//     .split("")
+//     var arr =[num]
+//     for(i=0 ; i==length-1 ; i++){
 
-// var temp = prompt("Enter Temprature");
-// var temp = parseInt(temp);
-// temp >30 ? alert(" hot!!") : alert("cold");
-// if (temp >30){
-
-//     document.write("Hot!!")
-// }
-
-// else {
-//     document.write("Cold..")
-// }
-
-
-// task two //////////////////////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////////////////////////////////////
-
-// var name=prompt(" Enter your name :");
-// if (isNaN(name)){
-
-//     var birth =prompt("Enter birth date :")
-
-// }
-// else{ 
-
-//     for(i=0 ; i < 2 ; i ++){
-//     var name=prompt(" Enter right name !!:")
-//     !isNaN(name)
-// }}
-       
-    
-
-
-//     if(isFinite(birth)< 2010){
-//         age=birth-2010
+//         sum=sum+i
 //     }
-    
-//     else{
-//         for(i=0 ; i < 2 ; i ++){
-//             var name=prompt(" Enter right birth date ! :")
-    
-//         }}
 
+//     return(sum)
+//  }
 
+// var value =prompt ("Enter number")
+//     sum = value
+//         .toString()
+//         .split('')
+//         .map(Number)
+//         .reduce(function (a, b) {
+//             return a + b;
+//         }, 0);
 
-
-    
-
-// task three /////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////
-// quadratic equation
-
-
-// let root1, root2;
-
-// // take input from the user
-// let a = prompt("Enter the first number: ");
-// let b = prompt("Enter the second number: ");
-// let c = prompt("Enter the third number: ");
-
-// // calculate discriminant
-// let discriminant = b * b - 4 * a * c;
-
-// // condition for real and different roots
-// if (discriminant > 0) {
-//     root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
-//     root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
-
-    
-//     prompt (root1 , root2)
-// }
-
-// // condition for real and equal roots
-// else if (discriminant == 0) {
-//     root1 = root2 = -b / (2 * a);
-
-    
-//     prompt (root1 , root2)
-// }
-
-// // if roots are not real
-// else {
-//     let realPart = (-b / (2 * a)).toFixed(2);
-//     let imagPart = (Math.sqrt(-discriminant) / (2 * a)).toFixed(2);
-
-    
-//     prompt(
-//         realPart + imagPart  , realPart - imagPart 
-//       );
-// }
-
-
-
-
-// task four ////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////
-
-
-// var num1 =prompt("Enter num1 : ")
-// var num2 =prompt("Enter num2 : ")
-// var x = num1.toString();
-// var y = num2.toString();
-// console.log( x.slice(length-1))
-// console.log( y.slice(length-1))
-// var z = parseInt (x.slice(length-1))
-// var s= parseInt (y.slice(length-1))
-// sum=z+s;
 // console.log(sum);
 
 
 
-///task five ////////////////////////////////////////////////////////////////////////////////////
+/// task two ////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+// var str = prompt("Enter string or num :")
+// function reverse(str) 
+// {
+//     return str.split("").reverse().join("");
+// }
+// console.log (reverse(str));
+
+
+
+// task three ////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// var num = prompt("Enter num :")
+// function  palindrome (num){
+
+//     return num == num.split("").reverse("").join("")
+// }
+
+// console.log (palindrome(num))
+
+
+
+
+// task four /////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+
+   
+// var num =prompt("Enter Num") 
+// var array=[1,2,3,4,5];
+// function sherein (num){
+    
+ 
+
+//     var result = array.some(a => a.toString().includes(num));
+//     console.log(result);
+//     return num;
+// }
+
+// var index = array.findIndex(sherein);
+//     console.log (index);
+
+// task five /////////////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// var index = prompt ("Enter index :")
+// var array = [1,2,3,4,5,6,7,8,9]
+// var result= array.splice(index , 1);
+// console.log (result)
+// console.log (array)
+
+
+
+// task six //////////////////////////////////////////////////////////////////////////////////////\
 /////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
-// var distance = prompt("Enter Distence :")
-// time=distance*2
-// alert( " the time is " + time);
+// var text = ["itiaswan"]
 
 
+// var str =prompt("Enter Strimg :")
+// var first = str.substring (0,2)
+// var last = str.substring(str.length-2, str.length)
+// var result= first+last
+// console.log(result)
+
+
+
+
+// task seven ////////////////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+// var str = prompt("Enter str");
+// var z = 0;
+// while (str[z] === "z") {
+//   z++;
+// }
+
+// var o = z;
+// while (str[o] === "o") {
+//   o++;
+// }
+// console.log(z * 2 === o - z ?"yes":"no")//
+
+
+
+
+ // bonus ///////////////////////////////////////////////////////////////////////////
+ ////////////////////////////////////////////////////////////////////
+
+
+
+// var a = prompt("a");
+// a= parseInt(a);
+// var b = prompt("b");
+// b= parseInt(b);
+// var c = prompt("c");
+// c= parseInt(c);
+// var trueresult = b*c+a;
+// var d = prompt("d");
+// d= parseInt(d);
+// if(trueresult == d){
+//     alert("yes");
+// }else{
+//     alert("no");
+//}
 
 
 
