@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="name" placeholder="Name" onfocus="border()" onblur="lost()"> <span id ="error" style ="display:none">invalid name</span><br>
+    <input type="email" id="email" placeholder="Email"><br>
+    <select name="city" id="city">
+        <option value="Aswan">Aswan</option>
+        <option value="cairo">cairo</option>
+        <option value="Assuit">Assuit</option>
+        <option value="Qna">Qna</option>
+    </select>  <br>
+    <input type="password" id="password" placeholder="password" onblur="check()"><br>
+    <input type="password" id="re_password" placeholder="confirm password"><br>
+    <input type="checkbox" id="check" placeholder="accept"> <label for="check">terms</label><br>
+    <input type="submit" onclick="open()">
+
+    <script src="index.js"></script>
+</body>
+</html>
